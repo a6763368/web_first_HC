@@ -12,12 +12,43 @@
     margin: 100px auto 0;
     /* 上 左右 下 */
     padding: 120px 60px 80px;
+    /*轉場：轉場時間  */
+    transition: 1s;
+}
+#card:hover{
+    /* 變形：尺寸(倍數) */
+    transform: scale(0.8);
 }
 #content{
     background-color: rgba(157, 227, 245, 0.150);
     color: rgb(233, 235, 139);
     padding: 30px 20px;
     }
+    h1{
+        margin-bottom: 25px;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
 ul{
     padding-left: 20px;
+}
+li{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+footer{
+    font-family: arial;
+    font-size: 72px;
+    /* 文字置中 */
+    text-align: center;
+   /* ls 文字間距 */
+   letter-spacing: 80px;
+   padding-left: 80px;
+   margin-top: 50px;
+   color: rgba(200, 197, 240, 0.692);
+}
+body{
+    background-color: rgb(21, 34, 21);
 }
