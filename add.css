@@ -9,9 +9,10 @@
     /* cover滿版 */
     background-size: cover;
     width: 800px;
-    margin: 100px auto 0;
+    height: 500px;
+    margin: 60px auto 0;
     /* 上 左右 下 */
-    padding: 120px 60px 80px;
+    padding: 110px 60px 90px;
     /*轉場：轉場時間  */
     transition: 1s;
 }
@@ -22,7 +23,7 @@
 #content{
     background-color: rgba(157, 227, 245, 0.150);
     color: rgb(233, 235, 139);
-    padding: 30px 20px;
+    padding: 20px 15px;
     }
     h1{
         margin-bottom: 25px;
